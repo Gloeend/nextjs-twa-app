@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+}
+
+
+body[data-locked=true] {
+  overflow: hidden;
+}
+
+.iconCurrentFillPath > path {
+  fill: currentColor;
+}
+
+.iconCurrentStrokeCircle > circle {
+  stroke: currentColor;
+}
+
+.iconCurrentStrokePath > path {
+  stroke: currentColor;
+}
+
+.iconCurrentStrokeG > g {
+  stroke: currentColor;
+}
